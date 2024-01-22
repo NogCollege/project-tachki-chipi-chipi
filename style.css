@@ -120,7 +120,7 @@
   margin: 40px;
   color: var(--white, #FFF);
   text-align: center;
-  font-family: "PP Pangram Sans";
+  font-family: "PPPangramSans-Medium";
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -143,7 +143,7 @@
 }
 .numbers p {
   color: var(--white, #FFF);
-  font-family: "PP Pangram Sans";
+  font-family: "PPPangramSans-Medium";
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
