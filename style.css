@@ -538,6 +538,7 @@ main h1 {
 }
 
 .price {
+  margin-bottom: 50px;
   margin-left: 60px;
   margin-right: 10px;
   display: flex;
