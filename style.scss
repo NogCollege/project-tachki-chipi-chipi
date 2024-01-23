@@ -200,6 +200,7 @@ body{
                 line-height: 20px; /* 142.857% */
                 margin-left: 70px;
                 margin-right: 30px;
+                border: 1px solid white;
             }
             .date_2{
                 display: flex;
@@ -217,6 +218,7 @@ body{
                 font-weight: 500;
                 line-height: 20px; /* 142.857% */
                 margin-right: 46px;
+                border: 1px solid white;
             }
         }
     button{
@@ -272,3 +274,287 @@ body{
 }
 
 
+main{
+    margin: auto;
+    width: 1320px;
+    h1{
+        color: var(--black, #1F1F1F);
+        font-family: Unbounded;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 62px; /* 129.167% */
+    }
+}
+
+.all_b{
+    display: flex;
+    padding: 12px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--black, #1F1F1F);
+    color: var(--black, #1F1F1F);
+    font-family: "PPPangramSans-Medium";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+.selector{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    .selected_b{
+    display: flex;
+    height: 74px;   
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    background: var(--black, #1F1F1F);
+    color: var(--white, #FFF);
+    font-family: "PPPangramSans-Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    border-color: transparent; 
+    }
+    .selected_b:hover{
+        background: var(--black, #1F1F1F);
+    }
+    button{
+    display: flex;
+    height: 74px;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    color: var(--black, #1F1F1F);
+    font-family: "PPPangramSans-Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    border-color: transparent; 
+    }
+    button:hover{
+       background-color:#eaeaea;
+    } 
+}
+.top{
+    display: inline-flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 48px; 
+}
+
+.glavniy{
+    margin-top: 50px;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    .under_glavniy{
+        display: flex;
+        flex-direction: column;
+        .card{
+            margin-left: 0;
+            margin-right: 24px;
+            margin-top: 24px;
+            width: 424px;
+            height: 483px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: #FFF;
+            display: flex;
+            flex-direction: column;
+            .mazzzda{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 24px;
+                margin-right: 24px;
+                .mazda_svg{
+                    display: flex;
+                    flex-direction: column;
+                    height: 60px;
+                    width: 27px;
+                    .svg_m{
+                        display: flex;
+                        width: 27px;
+                        height: 27px;
+                        flex-shrink: 0;
+                    }
+                    .svg_d{
+                        margin-top: 6px;
+                        display: flex;
+                        width: 27px;
+                        height: 27px;
+                        flex-shrink: 0;
+                    }
+                }
+                .mazda_p{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    width: 100px;
+                    height: 60px;
+                    margin-top: 0;
+                    margin-right: 6px;
+                    margin-bottom: 0;
+                    margin-left: 0;
+                    .city_mazzzda_m{
+                        width: 59px;
+                        height: 27px;
+                        display: inline-flex;
+                        padding: 9px 10px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 6px;
+                        background: #F0F0F0;
+                        color: var(--black, #1F1F1F);
+                        text-align: right;
+                        font-family: "PPPangramSans-Medium";
+                        font-size: 9px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 9px; /* 100% */
+                        text-transform: uppercase;
+                    }
+                    .city_mazzzda_d{
+                        margin-top: 6px;
+                        width: 51px;
+                        height: 27px;
+                        display: inline-flex;
+                        padding: 9px 10px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 6px;
+                        background: #F0F0F0;
+                        color: var(--black, #1F1F1F);
+                        text-align: right;
+                        font-family: "PPPangramSans-Medium";
+                        font-size: 9px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 9px; /* 100% */
+                        text-transform: uppercase;
+                    }
+                
+                }
+                
+            }        
+            img{
+                width: 286px;
+                height: 153px;
+                flex-shrink: 0;
+                margin: auto;
+            }
+            h3{
+                color: var(--black, #1F1F1F);
+                font-family: "PPPangramSans-Medium";
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px; /* 100% */
+                margin-bottom: 30px;
+                margin-left: 60px;
+            }
+            button{
+                width: 135px;
+                height: 40px;
+                display: inline-flex;
+                height: 40px;
+                padding: 8px 20px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex-shrink: 0;
+                border-radius: 6px;
+                border:1px solid white;
+                background: var(--main, linear-gradient(67deg, #9F7437 9.19%, #E3D293 92.03%));
+                color: var(--white, #FFF);
+                font-family: "PPPangramSans-Medium";
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px; /* 166.667% */
+            }
+            b{
+                color: var(--black, #1F1F1F);
+                font-family: "PPPangramSans-Medium";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+            }
+            
+        }
+    }
+}
+.city{
+    display: inline-flex;
+    width: 60px;
+    height: 15px;
+    padding: 9px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--black, #1F1F1F);
+    text-align: right;
+    font-family: "PPPangramSans-Medium";
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 9px; /* 100% */
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: #F0F0F0;
+    margin: 24px 24px 0 auto;
+    }
+.text{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    align-items: flex-start;
+    gap: 20px;
+    p{
+        color: #707070;
+        font-family: "PPPangramSans-Medium";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 153.846% */
+    }
+
+}
+.line2{
+    width: 324px;
+    height: 1px;
+    background: #EBEBEB;
+    margin:auto;
+
+}
+.price{
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p{
+        color: #ABABAB;
+        text-align: right;
+        font-family: "PPPangramSans-Medium";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 142.857% */
+    }
+}
