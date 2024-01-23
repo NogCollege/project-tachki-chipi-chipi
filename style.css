@@ -266,4 +266,85 @@ body {
   margin: 36px auto;
   display: flex;
   flex-direction: row;
+}
+
+main {
+  margin: auto;
+  width: 1320px;
+}
+main h1 {
+  color: var(--black, #1F1F1F);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+}
+
+.all_b {
+  display: flex;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid var(--black, #1F1F1F);
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.selector {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.selector .selected_b {
+  display: flex;
+  height: 74px;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background: var(--black, #1F1F1F);
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border-color: transparent;
+}
+.selector .selected_b:hover {
+  background: var(--black, #1F1F1F);
+}
+.selector button {
+  display: flex;
+  height: 74px;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background: #FFF;
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border-color: transparent;
+}
+.selector button:hover {
+  background-color: #eaeaea;
+}
+
+.top {
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 48px;
 }/*# sourceMappingURL=style.css.map */
