@@ -351,7 +351,20 @@ main h1 {
   margin-bottom: 48px;
 }
 
-.card {
+.glavniy {
+  margin-top: 50px;
+  width: 1920px;
+  display: flex;
+  flex-direction: row;
+}
+.glavniy .under_glavniy {
+  display: flex;
+  flex-direction: column;
+}
+.glavniy .under_glavniy .card {
+  margin-left: 0;
+  margin-right: 24px;
+  margin-top: 24px;
   width: 424px;
   height: 483px;
   flex-shrink: 0;
@@ -360,13 +373,88 @@ main h1 {
   display: flex;
   flex-direction: column;
 }
-.card img {
+.glavniy .under_glavniy .card .mazzzda {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+.glavniy .under_glavniy .card .mazzzda .mazda_svg {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 27px;
+}
+.glavniy .under_glavniy .card .mazzzda .mazda_svg .svg_m {
+  display: flex;
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.glavniy .under_glavniy .card .mazzzda .mazda_svg .svg_d {
+  margin-top: 6px;
+  display: flex;
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.glavniy .under_glavniy .card .mazzzda .mazda_p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100px;
+  height: 60px;
+  margin-top: 0;
+  margin-right: 6px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.glavniy .under_glavniy .card .mazzzda .mazda_p .city_mazzzda_m {
+  width: 59px;
+  height: 27px;
+  display: inline-flex;
+  padding: 9px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #F0F0F0;
+  color: var(--black, #1F1F1F);
+  text-align: right;
+  font-family: "PPPangramSans-Medium";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 9px; /* 100% */
+  text-transform: uppercase;
+}
+.glavniy .under_glavniy .card .mazzzda .mazda_p .city_mazzzda_d {
+  margin-top: 6px;
+  width: 51px;
+  height: 27px;
+  display: inline-flex;
+  padding: 9px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #F0F0F0;
+  color: var(--black, #1F1F1F);
+  text-align: right;
+  font-family: "PPPangramSans-Medium";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 9px; /* 100% */
+  text-transform: uppercase;
+}
+.glavniy .under_glavniy .card img {
   width: 286px;
   height: 153px;
   flex-shrink: 0;
   margin: auto;
 }
-.card h3 {
+.glavniy .under_glavniy .card h3 {
   color: var(--black, #1F1F1F);
   font-family: "PPPangramSans-Medium";
   font-size: 20px;
@@ -376,7 +464,7 @@ main h1 {
   margin-bottom: 30px;
   margin-left: 60px;
 }
-.card button {
+.glavniy .under_glavniy .card button {
   width: 135px;
   height: 40px;
   display: inline-flex;
@@ -396,7 +484,7 @@ main h1 {
   font-weight: 700;
   line-height: 20px; /* 166.667% */
 }
-.card b {
+.glavniy .under_glavniy .card b {
   color: var(--black, #1F1F1F);
   font-family: "PPPangramSans-Medium";
   font-size: 24px;
