@@ -675,6 +675,7 @@ main{
                 gap: 10px;
                 border-radius: 10px;
                 border: 2px solid var(--white, #FFF);
+                background-color: transparent;
                 color: var(--white, #FFF);
                 font-family: "PPPangramSans-Medium";
                 font-size: 16px;
@@ -708,4 +709,109 @@ main{
             }
         }
     }
+}
+
+.arenda_cars{
+    margin: auto;
+    width: 1320px;
+    .arenda_cars_h2{
+        margin-top: 120px;
+        margin-bottom: 60px;
+        width: 1045px;
+        color: var(--black, #1F1F1F);
+        font-family: Unbounded;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 62px; /* 129.167% */
+    }
+    
+    .arenda_cars_block_main{
+        display: flex;
+        .arenda_cars_block_1{
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: 24px;
+            width: 648px;
+            height: 584px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: var(--white, #FFF);
+            .image_p{
+                width: 648px;
+                height: 390px;
+                flex-shrink: 0;
+                border-radius: 20px 20px 0px 0px;
+                background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+                background-image: url(../img/zvgxc.png);
+            }
+            .block_svg{
+                margin-right: 50px;
+            }
+            .block_text{
+                margin-left: 50px;
+                h2{
+                    color: var(--black, #1F1F1F);
+                    font-family: "PPPangramSans-Medium";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 20px; /* 100% */
+                }
+                p{
+                    width: 402px;
+                    color: #989898;
+                    font-family: "PPPangramSans-Medium";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 26px; /* 162.5% */
+                }
+            }        
+        }
+    
+        .arenda_cars_block_2{
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            width: 648px;
+            height: 584px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: var(--white, #FFF);
+            .image_p{
+                width: 648px;
+                height: 390px;
+                flex-shrink: 0;
+                border-radius: 20px 20px 0px 0px;
+                background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+                background-image: url(../img/bggb.png);
+            }
+            .block_svg{
+                margin-right: 50px;
+            }
+            .block_text{
+                margin-left: 50px;
+                h2{
+                    color: var(--black, #1F1F1F);
+                    font-family: "PPPangramSans-Medium";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 20px; /* 100% */
+                }
+                p{
+                    width: 402px;
+                    color: #989898;
+                    font-family: "PPPangramSans-Medium";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 26px; /* 162.5% */
+                }
+            }        
+        }
+    }
+    
 }
