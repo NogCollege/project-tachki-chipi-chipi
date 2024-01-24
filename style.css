@@ -79,7 +79,7 @@ body {
   align-items: flex-start;
   gap: 50px;
   color: var(--white, #FFF);
-  font-family: PP Pangram Sans;
+  font-family: "PPPangramSans-Medium";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -553,4 +553,148 @@ main h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 142.857% */
+}
+
+.moscow {
+  margin-top: 120px;
+  margin-bottom: 36px;
+  align-self: stretch;
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 135.714% */
+}
+
+.moscow_2 {
+  margin-bottom: 120px;
+  align-self: stretch;
+  color: #9F9F9F;
+  font-family: "PPPangramSans-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+
+.arenda {
+  background-image: url(../img/bgbg.png);
+  width: 1860px;
+  height: 764px;
+  flex-shrink: 0;
+  border-radius: 36px;
+}
+.arenda h2 {
+  padding-top: 122px;
+  padding-left: 270px;
+  color: var(--white, #FFF);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+}
+.arenda .div_arenda {
+  display: flex;
+}
+.arenda .div_arenda .arenda_p .p_arenda {
+  padding-top: 70px;
+  padding-left: 270px;
+  padding-bottom: 36px;
+  align-self: stretch;
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 135.714% */
+}
+.arenda .div_arenda .arenda_p .p_arenda_2 {
+  padding-left: 270px;
+  align-self: stretch;
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  opacity: 0.8;
+}
+.arenda .div_arenda .arenda_form {
+  padding-top: 70px;
+  padding-right: 270px;
+  padding-left: 136px;
+}
+.arenda .div_arenda .arenda_form .input_name {
+  display: flex;
+  width: 424px;
+  padding: 28px 30px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 10px;
+  background: #F5F5F5;
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+.arenda .div_arenda .arenda_form .input_number {
+  margin-top: 14px;
+  display: flex;
+  width: 424px;
+  padding: 28px 30px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 10px;
+  background: #F5F5F5;
+  color: #A4A4A4;
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+.arenda .div_arenda .arenda_form .button_input {
+  margin-top: 14px;
+  display: flex;
+  width: 424px;
+  padding: 28px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--white, #FFF);
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}
+.arenda .div_arenda .arenda_form .input_checkbox {
+  display: inline-flex;
+  align-items: baseline;
+}
+.arenda .div_arenda .arenda_form .input_checkbox input {
+  margin-right: 14px;
+}
+.arenda .div_arenda .arenda_form .input_checkbox .p_form {
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "PPPangramSans-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.arenda .div_arenda .arenda_form .input_checkbox .p_form .a_form {
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
