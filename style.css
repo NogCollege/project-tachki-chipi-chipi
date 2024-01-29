@@ -353,7 +353,6 @@ main h1 {
 
 .glavniy {
   margin-top: 50px;
-  width: 1920px;
   display: flex;
   flex-direction: row;
 }
@@ -640,6 +639,7 @@ main h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 20px; /* 125% */
+  border-color: transparent;
 }
 .arenda .div_arenda .arenda_form .input_number {
   margin-top: 14px;
@@ -656,11 +656,12 @@ main h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 20px; /* 125% */
+  border-color: transparent;
 }
 .arenda .div_arenda .arenda_form .button_input {
   margin-top: 14px;
   display: flex;
-  width: 424px;
+  width: 490px;
   padding: 28px 34px;
   justify-content: center;
   align-items: center;
@@ -800,4 +801,69 @@ main h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
+}
+
+.h2_steps {
+  color: var(--black, #1F1F1F);
+  text-align: center;
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+  margin-bottom: 60px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+.steps img {
+  width: 69px;
+  height: 67px;
+}
+.steps b {
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}
+.steps p {
+  color: #989898;
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.card2 {
+  display: flex;
+  width: 424px;
+  height: 272px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--white, #FFF);
+}
+.card2 .card2_img {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.card2 .card2_p {
+  margin-top: 50px;
+  margin-right: 22px;
+  margin-left: 50px;
+}
+
+.sales {
+  width: 1860px;
+  height: 820px;
+  flex-shrink: 0;
+  border-radius: 36px;
+  background: linear-gradient(0deg, rgba(21, 21, 21, 0.7) 0%, rgba(21, 21, 21, 0.7) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background-image: url(../img/bg_sales.png);
 }/*# sourceMappingURL=style.css.map */
