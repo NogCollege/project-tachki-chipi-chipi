@@ -997,4 +997,55 @@ main h1 {
   margin-right: 50px;
   align-items: center;
   display: flex;
+}
+
+.uslugi {
+  width: 1320px;
+  margin: auto;
+}
+.uslugi h2 {
+  color: var(--black, #1F1F1F);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.uslugi_f {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.u_card p {
+  width: 262px;
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+.u_card button {
+  font-family: "PPPangramSans-Medium";
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: black;
+  background-color: rgba(204, 204, 204, 0);
+  border: 2px solid #838383;
+  line-height: 10px;
+  text-align: center;
+  padding-bottom: 8px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.u_tet {
+  display: flex;
+  gap: 48px;
 }/*# sourceMappingURL=style.css.map */
