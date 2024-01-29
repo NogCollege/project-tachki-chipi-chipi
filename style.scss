@@ -357,7 +357,7 @@ main{
 
 .glavniy{
     margin-top: 50px;
-    width: 1920px;
+
     display: flex;
     flex-direction: row;
     .under_glavniy{
@@ -648,6 +648,7 @@ main{
                 font-style: normal;
                 font-weight: 500;
                 line-height: 20px; /* 125% */
+                border-color: transparent;
             }
             .input_number{
                 margin-top: 14px;
@@ -664,11 +665,12 @@ main{
                 font-style: normal;
                 font-weight: 500;
                 line-height: 20px; /* 125% */
+                border-color: transparent;
             }
             .button_input{
                 margin-top: 14px;
                 display: flex;
-                width: 424px;
+                width: 490px;
                 padding: 28px 34px;
                 justify-content: center;
                 align-items: center;
@@ -814,4 +816,254 @@ main{
         }
     }
     
+}
+.h2_steps{
+        color: var(--black, #1F1F1F);
+        text-align: center;
+        font-family: Unbounded;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 62px; /* 129.167% */
+        margin-bottom: 60px;
+        margin-top: 120PX;
+ }
+.steps{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom:120px ;
+    img{
+        width: 69px;
+        height: 67px;  
+      }
+      b{
+          color: var(--black, #1F1F1F);
+          font-family: "PPPangramSans-Medium";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 100% */
+      }
+      p{
+          color: #989898;
+          font-family: "PPPangramSans-Medium";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 26px; /* 162.5% */
+      }
+  }
+
+.card2{
+    display: flex;
+    width: 424px;
+    height: 272px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    .card2_img{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .card2_p{
+        margin-top: 50px;
+        margin-right: 22px;
+        margin-left: 50px;
+    }
+}
+
+.sales{
+    display: flex;
+    margin: 0 auto;
+    gap: 136px;
+    width: 1860px;
+    height: 820px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: linear-gradient(0deg, rgba(21, 21, 21, 0.70) 0%, rgba(21, 21, 21, 0.70) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background-image: url(../img/bg_sales.png);
+    .sales_text{
+        padding-top: 120px;
+        padding-left: 270px;
+        width: 648px;
+        h2{
+            color: var(--white, #FFF);
+            font-family: Unbounded;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 62px; /* 129.167% */
+            margin-bottom: 50px;
+        }
+        .sales_p{
+            align-self: stretch;
+            color: var(--white, #FFF);
+            font-family: "PPPangramSans-Medium";
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 38px; /* 135.714% */
+            margin-bottom: 36px;
+        }
+        .sales_p2{
+            align-self: stretch;
+            color: var(--white, #FFF);
+            font-family: "PPPangramSans-Medium";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 166.667% */
+        }
+    }
+    .sales_img{
+        padding-top:120px ;
+        width: 536px;
+        height: 448px;
+        flex-shrink: 0;
+      
+        button{
+            font-family: "PPPangramSans-Medium";
+            width:50px;
+            height:50px;
+            border-radius: 100%;
+            color: white;
+            background-color: rgba(204, 204, 204, 0);
+            border: 2px solid #838383;
+            line-height: 10px;
+            text-align: center;
+            padding-bottom: 8px;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        button:hover{
+            background-color: #838383;
+        }
+
+        .sales_img_text{
+            border-radius: 30px;
+            background: var(--white, #FFF);
+            .image_p{
+                width: 536px;
+                height: 274px;
+                flex-shrink: 0;
+                border-radius: 20px 20px 0px 0px;
+                background-image: url(../img/ZXCS.png);
+    
+            }
+        h2{
+            margin-left: 40px;
+            color: var(--black, #1F1F1F);
+            font-family: "PPPangramSans-Medium";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px; /* 100% */ 
+        }
+        .pp{
+            margin-top: 22px;
+            margin-left: 40px;
+            padding-bottom: 40px;
+            width: 394px;
+            color: #9F9F9F;
+            font-family: "PPPangramSans-Medium";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 162.5% */  
+        }
+        }
+    }
+}
+.thunder{
+    margin-left: 446px;
+    position: relative;
+    top: -25px;
+}
+.skips{
+    width: 235px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   b{
+            
+            color: var(--white, #FFF);
+            font-family: Unbounded;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px; /* 153.846% */
+            
+        }
+    p{
+        color: var(--white, #FFF);
+        font-family: "PPPangramSans-Medium";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 110% */
+        opacity: 0.4;
+        margin-left: 4px;
+        
+    }
+
+}
+.count{
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+}
+.uslugi{
+    width: 1320px;
+    margin: auto;
+    h2{
+        color: var(--black, #1F1F1F);
+        font-family: Unbounded;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 62px; /* 129.167% */
+        margin-top: 120px;
+        margin-bottom: 60px;
+
+        }
+}
+.uslugi_f{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+.u_card{
+    p{
+        width: 262px;
+        color: var(--black, #1F1F1F);
+        font-family: "PPPangramSans-Medium";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 140% */   
+    }
+    button{
+        font-family: "PPPangramSans-Medium";
+        width:50px;
+        height:50px;
+        border-radius: 100%;
+        color: black;
+        background-color: rgba(204, 204, 204, 0);
+        border: 2px solid #838383;
+        line-height: 10px;
+        text-align: center;
+        padding-bottom: 8px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+.u_tet{
+    display: flex;
+    gap: 48px;
 }
