@@ -1209,4 +1209,185 @@ main h1 {
 }
 .z_item img {
   margin-top: 8px;
+}
+
+.marks {
+  width: 1860px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 36px 36px;
+  background: var(--white, #FFF);
+}
+.marks .marks_img {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 270px;
+  display: flex;
+  width: 1320px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questions {
+  display: flex;
+  padding-top: 120px;
+  margin-left: 330px;
+  margin-right: 296px;
+}
+.questions .questions_img {
+  width: 476px;
+  height: 748px;
+  flex-shrink: 0;
+}
+.questions .questions_text {
+  margin-left: 136px;
+}
+.questions .questions_text h1 {
+  margin-bottom: 40px;
+  color: var(--black, #1F1F1F);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+}
+.questions .questions_text p {
+  margin-bottom: 30px;
+  color: #9F9F9F;
+  font-family: "PPPangramSans-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.questions .questions_text h2 {
+  margin-bottom: 60px;
+  color: var(--black, #1F1F1F);
+  font-family: Unbounded;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+}
+.questions .questions_text .input_name {
+  margin-bottom: 14px;
+  border: none;
+  display: flex;
+  width: 448px;
+  padding: 28px 30px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 10px;
+  background: var(--white, #FFF);
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+.questions .questions_text .input_number {
+  margin-bottom: 14px;
+  border: none;
+  display: flex;
+  width: 448px;
+  padding: 28px 30px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 10px;
+  background: var(--white, #FFF);
+  color: #A4A4A4;
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+}
+.questions .questions_text .button_input {
+  margin-bottom: 40px;
+  border: none;
+  display: flex;
+  width: 448px;
+  padding: 28px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--black, #1F1F1F);
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}
+.questions .questions_text .input_checkbox {
+  display: inline-flex;
+  align-items: baseline;
+}
+.questions .questions_text .input_checkbox input {
+  margin-right: 14px;
+}
+.questions .questions_text .input_checkbox .p_form {
+  color: #9E9E9E;
+  font-family: "PPPangramSans-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.questions .questions_text .input_checkbox .a_form {
+  color: #131313;
+  font-family: "PPPangramSans-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+footer {
+  width: 1860px;
+  height: 534px;
+  flex-shrink: 0;
+  border-radius: 36px 36px 0px 0px;
+  background: #1D1D1D;
+}
+footer .div_footer1 .div_footer_nav button {
+  display: flex;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid var(--white, #FFF);
+  color: var(--white, #FFF);
+  background-color: transparent;
+  font-family: "PP Pangram Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 153.846% */
+}
+footer .div_footer1 .div_footer_nav .nav_num h1 {
+  color: var(--white, #FFF);
+  font-family: Unbounded;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+}
+footer .div_footer1 .div_footer_nav .nav_num p {
+  color: #AFAFAF;
+  font-family: "PPPangramSans-Medium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px; /* 100% */
+}
+footer .div_footer1 h2 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */
