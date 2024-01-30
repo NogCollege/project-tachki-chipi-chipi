@@ -1048,4 +1048,165 @@ main h1 {
 .u_tet {
   display: flex;
   gap: 48px;
+}
+
+.r_h2 {
+  width: 760px;
+  color: var(--black, #1F1F1F);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+}
+
+.reasons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 213px;
+  grid-row-gap: 60px;
+  margin-bottom: 120px;
+}
+
+.reason {
+  width: 450px;
+  display: flex;
+}
+.reason div {
+  margin-left: 40px;
+}
+.reason h3 {
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+.reason p {
+  width: 307px;
+  color: #989898;
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.dubai {
+  background-image: url(../img/ng.png);
+  width: 1860px;
+  height: 1459px;
+  flex-shrink: 0;
+}
+
+.dubai_top {
+  display: flex;
+  padding-top: 120px;
+  padding-left: 270px;
+  padding-right: 270px;
+  padding-bottom: 110px;
+  gap: 112px;
+}
+
+.dubai_t_text {
+  width: 648px;
+}
+.dubai_t_text h3 {
+  width: 628px;
+  color: var(--white, #FFF);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+  margin-bottom: 50px;
+}
+.dubai_t_text b {
+  align-self: stretch;
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 135.714% */
+}
+.dubai_t_text p {
+  margin-top: 36px;
+  align-self: stretch;
+  color: #9F9F9F;
+  font-family: "PPPangramSans-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+
+.line3 {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 760px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.dubai_bottom {
+  display: flex;
+  padding-left: 270px;
+  padding-right: 282px;
+  padding-bottom: 110px;
+  gap: 112px;
+  width: 648px;
+}
+.dubai_bottom h3 {
+  color: var(--white, #FFF);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+}
+.dubai_bottom b {
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.dubai_bottom p {
+  color: #9F9F9F;
+  font-family: "PPPangramSans-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+
+.dubai_b_text {
+  width: 760px;
+}
+
+.zaslugi {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+}
+.zaslugi p {
+  color: var(--white, #FFF);
+  font-family: "PPPangramSans-Medium";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 184.615% */
+  text-transform: uppercase;
+}
+
+.z_item {
+  display: flex;
+  gap: 18px;
+}
+.z_item img {
+  margin-top: 8px;
 }/*# sourceMappingURL=style.css.map */
