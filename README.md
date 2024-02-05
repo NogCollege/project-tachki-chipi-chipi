@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hQx7SJUO)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13485338&assignment_repo_type=AssignmentRepo)
 # Project-Tachki-3ispr1
-Фамилия имя студентов, выполняющих задание: **Иванов Иван**, **Иванов Иван**
+Фамилия имя студентов, выполняющих задание: **Булаткин Даниил**, **Рябчевский раб**
 
 Стартовый репозиторий для проекта "АрендаТачек.рф". Выполняется на HTML, SASS, PHP и JavaScript.
 Проект выполняется в группе из двух (максимум - трёх, при нехватке рабочих мест) человек.
