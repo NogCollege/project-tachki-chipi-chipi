@@ -1579,6 +1579,7 @@ footer .div_footer2 .policy p a {
     background-size: cover;
   }
   .icon {
+    display: flex;
     margin: 10px;
   }
   .ar {
