@@ -5,8 +5,8 @@
 
 @font-face {
   font-family: "PPPangramSans-Medium";
-  src: url("../fonts/pppangramsans-medium.eot"); /* IE 9 Compatibility Mode */
-  src: url("../fonts/pppangramsans-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/pppangramsans-medium.woff2") format("woff2"), url("../fonts/pppangramsans-medium.woff") format("woff"), url("../fonts/pppangramsans-medium.ttf") format("truetype"), url("../fonts/pppangramsans-medium.svg#pppangramsans-medium") format("svg"); /* Chrome < 4, Legacy iOS */
+  src: url("../templates/fonts/pppangramsans-medium.eot"); /* IE 9 Compatibility Mode */
+  src: url("../templates/fonts/pppangramsans-medium.eot?#iefix") format("embedded-opentype"), url("../templates/fonts/pppangramsans-medium.woff2") format("woff2"), url("../templates/fonts/pppangramsans-medium.woff") format("woff"), url("../templates/fonts/pppangramsans-medium.ttf") format("truetype"), url("../templates/fonts/pppangramsans-medium.svg#pppangramsans-medium") format("svg"); /* Chrome < 4, Legacy iOS */
 }
 body {
   background: #F4F4F4;
@@ -104,7 +104,7 @@ body {
 }
 
 .promo {
-  background-image: url(../img/bg.png);
+  background-image: url(../templates/img/bg.png);
   width: 1860px;
   height: 966px;
   border-radius: 0px 0px 36px 36px;
@@ -584,7 +584,7 @@ main h1 {
 }
 
 .arenda {
-  background-image: url(../img/bgbg.png);
+  background-image: url(../templates/img/bgbg.png);
   width: 1860px;
   height: 764px;
   flex-shrink: 0;
@@ -742,7 +742,7 @@ main h1 {
   flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
   background: url(<path-to-image>), lightgray 50%/cover no-repeat;
-  background-image: url(../img/zvgxc.png);
+  background-image: url(../templates/img/zvgxc.png);
 }
 .arenda_cars .arenda_cars_block_main .arenda_cars_block_1 .block_svg {
   margin-right: 50px;
@@ -783,7 +783,7 @@ main h1 {
   flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
   background: url(<path-to-image>), lightgray 50%/cover no-repeat;
-  background-image: url(../img/bggb.png);
+  background-image: url(../templates/img/bggb.png);
 }
 .arenda_cars .arenda_cars_block_main .arenda_cars_block_2 .block_svg {
   margin-right: 50px;
@@ -876,7 +876,7 @@ main h1 {
   flex-shrink: 0;
   border-radius: 36px;
   background: linear-gradient(0deg, rgba(21, 21, 21, 0.7) 0%, rgba(21, 21, 21, 0.7) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
-  background-image: url(../img/bg_sales.png);
+  background-image: url(../templates/img/bg_sales.png);
 }
 .sales .sales_text {
   padding-top: 120px;
@@ -942,7 +942,7 @@ main h1 {
   height: 274px;
   flex-shrink: 0;
   border-radius: 20px 20px 0px 0px;
-  background-image: url(../img/ZXCS.png);
+  background-image: url(../templates/img/ZXCS.png);
 }
 .sales .sales_img .sales_img_text h2 {
   margin-left: 40px;
@@ -1103,10 +1103,27 @@ main h1 {
 }
 
 .dubai {
-  background-image: url(../img/ng.png);
+  background-image: url(../templates/img/ng.png);
   width: 1860px;
   height: 1459px;
   flex-shrink: 0;
+}
+.dubai .chipi_chipi {
+  color: var(--white, #FFF);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
+}
+.dubai .chapa_chapa {
+  display: flex;
+  color: var(--white, #FFF);
+  font-family: Unbounded;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 129.167% */
 }
 
 .dubai_top {
