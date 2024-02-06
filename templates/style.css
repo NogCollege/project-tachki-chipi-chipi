@@ -12,6 +12,19 @@ body {
   background: #F4F4F4;
 }
 
+.card {
+  margin-left: 0;
+  margin-right: 24px;
+  margin-top: 24px;
+  width: 424px;
+  height: 483px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
 .space {
   display: flex;
   height: 124px;
