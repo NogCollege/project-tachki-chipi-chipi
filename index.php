@@ -6,3 +6,4 @@ require_once "templates\main_cards.php";
 require_once "templates\under_main.php";
 require_once "templates\do_futera.php";
 require_once "templates\hooter.php";
+require_once "controllers\personal.php";

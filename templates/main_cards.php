@@ -273,7 +273,7 @@
             foreach ($data as $elem) {
               $result .= '<div class="card">';
               $result .= '    <p class="city">'. $elem['sity'].'</p>';
-              $result .= '    <img src="templates\img\image 22 (8).png"'.$elem['id'].'-'.$elem['name'].'/main.jpg" alt="">';
+              $result .= '    <img class="main_jpg" src="templates\img\photos\ '.$elem['id'].'-'.$elem['name'].'/main.jpg" alt="">';
               $result .= '    <h3 class="h3_cards_php">' . $elem['full_name'] . '</h3> <br>';
               $result .= '        <div class="text">';
               $result .= '            <img src="templates\img\eng.png">';
