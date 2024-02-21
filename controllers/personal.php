@@ -1,5 +1,6 @@
 <?php
-$dir = 'C:\OSPanel\domains\project-tachki-chipi-chipi\templates\img\photos '; // Укажите путь к папке с
+require_once 'connect.php';
+$dir = 'templates\img\photos\ '.$elem['id'].'-'.$elem['name']; // Укажите путь к папке с
 $files = scandir($dir); // Получаем список файлов в папке
 foreach ($files as $file) {
  $file_path = $dir . '/' . $file;

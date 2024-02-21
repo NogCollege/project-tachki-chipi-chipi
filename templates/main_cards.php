@@ -283,7 +283,7 @@
               $result .= '        </div>';
               $result .= '        <div class="line2"></div>';
               $result .= '        <div class="price">';
-              $result .= '          <button class="button_php">Забронировать</button>' ;
+              $result .= '          <a class="button_php" href="controllers\personal.php" >Забронировать</a> ' ;
               $result .= '          <p>от <b class="b_php">'. $elem['middle_price'].'</b> руб/сут.</p>';
               $result .= '        </div>';
               $result .= '</div>';
