@@ -301,7 +301,7 @@ margin-left: 0;
 
 main{
     margin: auto;
-    width: 1320px;
+    width: 1420px;
     h1{
         color: var(--black, #1F1F1F);
         font-family: Unbounded;
@@ -381,9 +381,11 @@ main{
 
 .glavniy{
     margin-top: 50px;
-
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    width: 1420px;
+    margin: auto;
     .under_glavniy{
         display: flex;
         flex-direction: column;
@@ -1333,7 +1335,7 @@ main{
             margin-bottom: 14px;
             border: none;
             display: flex;
-            width: 448px;
+            width: 70%;
             padding: 28px 30px;
             align-items: center;
             gap: 16px;
@@ -1350,7 +1352,7 @@ main{
             margin-bottom: 14px;
             border: none;
             display: flex;
-            width: 448px;
+            width: 70%;
             padding: 28px 30px;
             align-items: center;
             gap: 16px;
@@ -1367,7 +1369,7 @@ main{
             margin-bottom: 40px;
             border: none;
             display: flex;
-            width: 448px;
+            width: 80%;
             padding: 28px 34px;
             justify-content: center;
             align-items: center;
@@ -2129,7 +2131,7 @@ main{
     }
    }
    .questions .questions_text .button_input{
-    width: 94%;
+    width: 80%;
    }
    .questions .questions_img{
     width: inherit;
@@ -2217,7 +2219,7 @@ footer .div_footer1 h2{
     width: 70%;
 }
 .arenda .div_arenda .arenda_form .button_input{
-    width: 88%;
+    width: 80%;
 }
 .arenda_cars .arenda_cars_h2{   
     width: auto;
@@ -2256,4 +2258,43 @@ footer .div_footer1 h2{
     width: 80%;
     height: 80%;
 }
+}
+
+.h3_cards_php{
+    color: var(--black, #1F1F1F);
+    font-family: "PPPangramSans-Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.b_php{
+    color: var(--black, #1F1F1F);
+    font-family: "PPPangramSans-Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.button_php{
+    width: 135px;
+    height: 40px;
+    display: inline-flex;
+    height: 40px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid white;
+    background: var(--main, linear-gradient(67deg, #9F7437 9.19%, #E3D293 92.03%));
+    color: var(--white, #FFF);
+    font-family: "PPPangramSans-Medium";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
 }
