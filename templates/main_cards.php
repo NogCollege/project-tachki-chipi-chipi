@@ -266,7 +266,8 @@
 <!-- <img src="templates\img\eng.png">
 <img src="templates\img\hp.png"> -->
 <div class="glavniy">
-        <?php require_once 'controllers\connect.php';
+        <?php 
+        require_once 'templates\personal.php';
             // foreach ($data as $elem){
             //     $result.="<div class='card'>"."<p class='city'>".$elem['sity']."</p>"."<img src='templates\img\image 22.png'>"."<h3>".$elem['full_name'].' '.$elem['year']."</h3>"."<p>"."<img class='logo_card' src='templates\img\qng.png'>".$elem['volume']." ".$elem['engine_type']."<img class='logo_card' src='templates\img\hp.png'>".$elem['horse_power']."</p>".$elem['max_price']."</div>".'<br>';
             // }
