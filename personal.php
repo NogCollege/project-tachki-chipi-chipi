@@ -1,6 +1,6 @@
 <?php
-require_once 'connect.php';
-$dir = 'templates\img\photos\ '.$elem['id'].'-'.$elem['name']; // Укажите путь к папке с
+require_once 'controllers\connect.php';
+$dir = 'templates\img\photos\ 1-X2 '; // Укажите путь к папке с
 $files = scandir($dir); // Получаем список файлов в папке
 foreach ($files as $file) {
  $file_path = $dir . '/' . $file;
