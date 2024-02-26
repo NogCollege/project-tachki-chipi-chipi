@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="templates\style.css">
+</head>
+<body>
+    
+</body>
+</html>
 <?php
 $host = 'localhost'; 
 $user = 'root'; 
@@ -18,7 +30,8 @@ $result = mysqli_query($link, $query) or die(
     mysqli_error($link));
 $data = mysqli_fetch_assoc($result);
 ;
-$dir = 'templates/img/photos/' . $data['id'] . '-' . $data['name'] . ''; // Укажите путь к папке сизображениями
+$dir = 'templates/img/photos/' .' '. $data['id'] . '-' . $data['name'] . ''; 
+// Укажите путь к папке сизображениями
 $files = scandir($dir); // Получаем список файлов в папке
 ?>
 
@@ -53,6 +66,7 @@ $files = scandir($dir); // Получаем список файлов в пап�
     </div>
 
     <p>
-        <? echo $data['full_desc'] ?>
+        <? echo $data['description'] ?>
     </p>
 </section>
+<script src="slider.js"></script>
