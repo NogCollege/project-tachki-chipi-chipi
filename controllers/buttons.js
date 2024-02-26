@@ -37,7 +37,7 @@ for (let button of buttons) {
     document.querySelector('.all_b').addEventListener('click', function(evt) {
         evt.preventDefault();
         allCards.forEach((card) => {
-        card.style.display = 'block';
+        card.style.display = 'flex';
         console.log("bloc")
         })
         buttons.forEach((button) => {

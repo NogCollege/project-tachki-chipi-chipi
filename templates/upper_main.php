@@ -3,7 +3,7 @@
       <h1>Наш автопарк</h1><button class="all_b">Смотреть все</button>
     </div>
     <div class="selector">
-      <button class="selected_b button-cat " data-category="suv"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12"
+      <button class=" button-cat " data-category="suv"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12"
           fill="none">
           <g opacity="0.6">
             <path
