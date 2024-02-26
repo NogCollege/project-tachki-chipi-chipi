@@ -272,7 +272,7 @@
             //     $result.="<div class='card'>"."<p class='city'>".$elem['sity']."</p>"."<img src='templates\img\image 22.png'>"."<h3>".$elem['full_name'].' '.$elem['year']."</h3>"."<p>"."<img class='logo_card' src='templates\img\qng.png'>".$elem['volume']." ".$elem['engine_type']."<img class='logo_card' src='templates\img\hp.png'>".$elem['horse_power']."</p>".$elem['max_price']."</div>".'<br>';
             // }
             foreach ($data as $elem) {
-              $result .= '<div class="card">';
+              $result .= '<div class="card '.$elem['type'].'">';
               $result .= '    <p class="city">'. $elem['sity'].'</p>';
               $result .= '    <img class="main_jpg" src="templates\img\photos\ '.$elem['id'].'-'.$elem['name'].'/main.jpg" alt="">';
               $result .= '    <h3 class="h3_cards_php">' . $elem['full_name'] . '</h3> <br>';
@@ -284,7 +284,7 @@
               $result .= '        </div>';
               $result .= '        <div class="line2"></div>';
               $result .= '        <div class="price">';
-              $result .= '          <a class="button_php" href="../personal.php" >Забронировать</a> ' ;
+              $result .= '          <a class="button_php" href="../personal.php?id=' . $elem['id'] . '" >Забронировать</a> ' ;
               $result .= '          <p>от <b class="b_php">'. $elem['middle_price'].'</b> руб/сут.</p>';
               $result .= '        </div>';
               $result .= '</div>';
