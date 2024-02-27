@@ -16,6 +16,11 @@
 body{
     background: #F4F4F4;
 }
+.main_jpg{
+    width: 286px;
+    height: 153px;
+    margin: auto;
+}
 .card{
 margin-left: 0;
     margin-right: 24px;
@@ -1054,9 +1059,6 @@ main{
     display: flex;
     align-items: center;
     gap: 24px;
-    .u_card{
-        width: auto;
-    }
 
 }
 .u_card{
@@ -1598,6 +1600,20 @@ footer{
     display: none;
 }
 @media  (max-width:1250px){
+    .card{
+        width: 100%;
+      
+    }
+    .reason p{
+        width: auto;
+    }
+    .main_jpg{
+        width: 200px;
+        height: 100px;
+    }
+    .line2{
+        width: 80%;
+    }
     header{
         height: 1360px;
     }
@@ -1651,6 +1667,7 @@ footer{
         margin-left: 10%;
     }
     .zag{
+        width: 90%;
         margin: 0 auto;
         p{
             width: 90%;
@@ -1689,7 +1706,7 @@ footer{
     width: auto;
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
+    gap: 13px;
     border-radius: 12px;
     p{
         color: var(--white, #FFF);
@@ -1702,6 +1719,10 @@ footer{
         margin: 10px;
     }
 }
+.arenda_cars .arenda_cars_block_main .arenda_cars_block_1 .block_text p{
+    width: auto;
+}
+
 .under_head{
     top: -270px;
     height: 545px;
@@ -1760,6 +1781,9 @@ footer{
 .box{
     flex-direction: column;
 }
+footer .div_footer1 h2{
+    font-size: large;
+}
 .mobile_nav{
     margin: 10%;
 }
@@ -1783,6 +1807,7 @@ main{
         font-weight: 700;
         line-height: 27px; /* 150% */
     }
+
 
 }
 .selector{
@@ -1975,7 +2000,6 @@ main{
     }
   
     .sales .sales_img .sales_img_text h2{
-        line-height: 0;
         margin-top: 0;
         margin-bottom: 5%;
     }
@@ -1997,7 +2021,12 @@ main{
     .uslugi_f{
         flex-direction: column;
     }
+    .u_tet{
+        gap: 20px;
+    
+    }
     .u_card{
+        width: 90%;
         img{
             
             width: auto;
@@ -2138,6 +2167,9 @@ footer{
         padding: 0;
     } 
 }
+footer .div_footer1{
+    width: 80%;
+}
 footer .div_footer1 .div_footer_nav2 .footer_nav_div1{
 
     padding: 0;
@@ -2148,6 +2180,9 @@ footer .div_footer1 .div_footer_nav2 .footer_nav_div2{
 }
 footer .div_footer2{
     padding: 0;
+}
+footer .div_footer2 .div_footer_nav_2{
+    width: 80%;
 }
 footer .div_footer2 .div_footer_nav_2 .footer_nav_columns{
     width: 90%;
@@ -2288,11 +2323,6 @@ footer .div_footer1 h2{
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
-}
-.main_jpg{
-    width: 286px;
-    height: 153px;
-    margin: auto;
 }
 
 .FullPage {
