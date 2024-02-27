@@ -1,17 +1,16 @@
-<header>
-    <div class="space">
+<div class="space">
       <div class="ar">
         <p>АРЕНДАТАЧЕК.РФ</p> 
       </div>
       <p class="ar_m">АРЕНДА<br>ТАЧЕК.РФ</p>
       <div class="nav">
-      <a href="http://project-tachki-chipi-chipi/">Подобрать авто</a>
+        <a href="http://project-tachki-chipi-chipi/">Подобрать авто</a>
         <a href="http://project-tachki-chipi-chipi/">Условия</a>
         <a href="http://project-tachki-chipi-chipi/">Цены</a>
         <a href="http://project-tachki-chipi-chipi/">О нас</a>
         <a href="http://project-tachki-chipi-chipi/">Контакты</a>
-      </div>
-      <div class="num">
+        </div>
+<div class="num">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
           <g opacity="0.3">
             <path
@@ -49,137 +48,3 @@
       </div>
       <img class="mobile_nav hidden" src="templatesimg\mobile.png" alt="">
     </div>
-    <div class="promo">
-      <div class="zag">
-        <h1>Аренда авто 
-          в Ногинске</h1>
-        <p>Прокат или аренда автомобиля с водителем</p>
-      </div>
-      <div class="line"></div>
-      <div class="numbers">
-        <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="black">
-          <g filter="url(#filter0_b_7806_425)">
-            <circle cx="13" cy="13" r="13" fill="white" />
-            <text x="9" y="19">1</text>
-          </g>
-          <defs>
-            <filter id="filter0_b_7806_425" x="-3" y="-3" width="32" height="32" filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.5" />
-              <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7806_425" />
-              <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7806_425" result="shape" />
-            </filter>
-          </defs>
-        </svg>
-        <p>Большой парк <br> автомобилей в наличии</p></div>
-        <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 27 26" fill="black">
-          <g filter="url(#filter0_b_7806_429)">
-            <circle cx="13.2188" cy="13" r="13" fill="white" />
-            <text x="9" y="19">2</text>
-          </g>
-          <defs>
-            <filter id="filter0_b_7806_429" x="-2.78125" y="-3" width="32" height="32" filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.5" />
-              <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7806_429" />
-              <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7806_429" result="shape" />
-            </filter>
-          </defs>
-        </svg>
-        <p>Доставка авто <br> до вашей геолокации</p></div>
-        <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 27 26" fill="black">
-          <g filter="url(#filter0_b_7806_432)">
-            <circle cx="13.4375" cy="13" r="13" fill="white" />
-            <text x="9" y="19">3</text>
-          </g>
-          <defs>
-            <filter id="filter0_b_7806_432" x="-2.5625" y="-3" width="32" height="32" filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.5" />
-              <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7806_432" />
-              <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7806_432" result="shape" />
-            </filter>
-          </defs>
-        </svg>
-        <p>Скидки постоянным <br> клиентам</p></div>
-        <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 27 26" fill="black">
-          <g filter="url(#filter0_b_7806_435)">
-            <circle cx="13.6562" cy="13" r="13" fill="white" />
-            <text x="9" y="19">4</text>
-          </g>
-          <defs>
-            <filter id="filter0_b_7806_435" x="-2.34375" y="-3" width="32" height="32" filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.5" />
-              <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7806_435" />
-              <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7806_435" result="shape" />
-            </filter>
-          </defs>
-        </svg>
-        <p>Любая форма <br> оплаты</p></div>
-        <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="black">
-          <g filter="url(#filter0_b_7806_438)">
-            <circle cx="13" cy="13" r="13" fill="white" />
-            <text x="9" y="19">5</text>
-          </g>
-          <defs>
-            <filter id="filter0_b_7806_438" x="-3" y="-3" width="32" height="32" filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.5" />
-              <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_7806_438" />
-              <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7806_438" result="shape" />
-            </filter>
-          </defs>
-        </svg>
-        <p>Выгодные цены</p></div>
-      </div>
-    </div>
-    <div class="under_head">
-      <h3>Заказать аренду online</h3>
-      <div class="box">
-        <div class="date">
-          <input class="date_1" type="date" id="start" name="trip-start" value="Начало аренды" min="2024-01-01"
-            max="2030-01-01" />
-          <input class="date_2" type="date" id="end" name="trip-end" value="Завершение аренды" min="2031-01-01"
-            max="2037-01-01" />
-        </div>
-        <fieldset>
-          <div>
-            <input class="black" type="checkbox" id="vnedoroghnik" name="vnedoroghnik" checked />
-            <label for="vnedoroghnik">Внедорожник</label>
-          </div>
-          <div>
-            <input type="checkbox" id="sport" name="sport" />
-            <label for="sport">Спорт</label>
-          </div>
-
-          <div>
-            <input type="checkbox" id="business" name="business" />
-            <label for="business">Бизнес</label>
-          </div>
-          <div>
-            <input type="checkbox" id="sportcar" name="sportcar" />
-            <label for="sportcar">Спорткар</label>
-          </div>
-          <div>
-            <input type="checkbox" id="premium" name="premium" />
-            <label for="premium">Премиум</label>
-          </div>
-          <div>
-            <input type="checkbox" id="comfort" name="comfort" />
-            <label for="comfort">Комфорт</label>
-          </div>
-        </fieldset>
-        <button>Найти варианты</button>
-      </div>
-  </header>

@@ -1,22 +1,23 @@
 <?php
 require_once 'controllers/connect.php';
+require_once 'controllers/head.php';
 ?>
-<table>
+<table class="a_table">
     <tr class="info">
         <td>id</td>
-        <td>rent_able</td>
+        <td>is_exists</td>
         <td>name</td>
-        <td>city</td>
-        <td>category</td>
-        <td>fullname</td>
-        <td>date</td>
-        <td>engine_</br>type</td>
-        <td>engine_</br>volume</td>
-        <td>horse_</br>power</td>
-        <td>price_max</td>
-        <td>price_mid</td>
-        <td>price_min</td>
-        <td>full_desc</td>
+        <td>sity</td>
+        <td>type</td>
+        <td>full_name</td>
+        <td>year</td>
+        <td>engine_type</td>
+        <td>volume</td>
+        <td>horse_power</td>
+        <td>max_price</td>
+        <td>middle_price</td>
+        <td>min_price</td>
+        <td>description</td>
     </tr>
     <?php
 
@@ -35,92 +36,80 @@ require_once 'controllers/connect.php';
         $result .= '<td>' . $elem['max_price'] . '</td>';
         $result .= '<td>' . $elem['middle_price'] . '</td>';
         $result .= '<td>' . $elem['min_price'] . '</td>';
-        $result .= '<td class="fullDesk">' . $elem['description'] . '</td>';
-        $result .= '<td class="FileUpload"><a href="templates/upload-img/uploadpage.php?id=' . $elem['id'] . '">Фото</a></td>';
+        $result .= '<td>' .'<p class="big_boy">'. $elem['description'] .'</p>'. '</td>';
+        $result .= '<td ><a href="upload.php?id=' . $elem['id'] . '">Фото</a></td>';
         $result .= '<td><a href="?del=' . $elem['id'] . '">Удалить</td>';
         $result .= '</tr>';
-
-        $uploadDir = 'templates/img/photos/'. ''. $elem['id'] . '-' . $elem['name'] . '';
-        if ($_FILES) {
-            $files = array_filter($_FILES['upload']['name']);
-            $total = count($_FILES['upload']['name']);
-            for ($i = 0; $i < $total; $i++) {
-                $tmpFilePath = $_FILES['upload']['tmp_name'][$i];
-                if ($tmpFilePath != "") {
-                    $newFilePath = $uploadDir . $_FILES['upload']['name'][$i];
-                    if (!file_exists($newFilePath)) {
-                        move_uploaded_file($tmpFilePath, $newFilePath);
-                        echo $_FILES['upload']['name'][$i] . ' успешно загружен в папку ' .
-                            $uploadDir . '<br>';
-                    } else {
-                        echo 'Файл ' . $_FILES['upload']['name'][$i] . ' уже существует!';
-                    }
-                }
-            }
-        }
+        
+        // $uploadDir = 'templates/img/photos/'. ''. $elem['id'] . '-' . $elem['name'] . '';
+        // if ($_FILES) {
+        //     $files = array_filter($_FILES['upload']['name']);
+        //     $total = count($_FILES['upload']['name']);
+        //     for ($i = 0; $i < $total; $i++) {
+        //         $tmpFilePath = $_FILES['upload']['tmp_name'][$i];
+        //         if ($tmpFilePath != "") {
+        //             $newFilePath = $uploadDir . $_FILES['upload']['name'][$i];
+        //             if (!file_exists($newFilePath)) {
+        //                 move_uploaded_file($tmpFilePath, $newFilePath);
+        //                 echo $_FILES['upload']['name'][$i] . ' успешно загружен в папку ' .
+        //                     $uploadDir . '<br>';
+        //             } else {
+        //                 echo 'Файл ' . $_FILES['upload']['name'][$i] . ' уже существует!';
+        //             }
+        //         }
+        //     }
+        // }
     }
-
-    if ($_FILES) {
-        $files = array_filter($_FILES['upload']['name']);
-        $total = count($_FILES['upload']['name']);
-        for ($i = 0; $i < $total; $i++) {
-            $tmpFilePath = $_FILES['upload']['tmp_name'][$i];
-            if ($tmpFilePath != "") {
-                $newFilePath = $uploadDir . $_FILES['upload']['name'][$i];
-                if (!file_exists($newFilePath)) {
-                    move_uploaded_file($tmpFilePath, $newFilePath);
-                    echo $_FILES['upload']['name'][$i] . ' успешно загружен в папку ' .
-                        $uploadDir . '<br>';
-                } else {
-                    echo 'Файл ' . $_FILES['upload']['name'][$i] . ' уже существует!';
-                }
-            }
-        }
-    }
-
     echo $result;
-    ?>
-    <?php
-    if (!empty($_POST)) {
-        $rent_able = $_POST['is_exists'];
+     ?>
+     <?php
+  //Если переменная Name передана
+  if (isset($_POST["name"])) {
+        $is_exists = $_POST['is_exists'];
         $name = $_POST['name'];
-        $city = $_POST['sity'];
-        $category = $_POST['category'];
-        $fullname = $_POST['fullname'];
-        $date = $_POST['date'];
+        $sity = $_POST['sity'];
+        $type = $_POST['type'];
+        $full_name = $_POST['full_name'];
+        $year = $_POST['year'];
         $engine_type = $_POST['engine_type'];
-        $engine_volume = $_POST['engine_volume'];
+        $volume = $_POST['volume'];
         $horse_power = $_POST['horse_power'];
-        $price_max = $_POST['price_max'];
-        $price_mid = $_POST['price_mid'];
-        $price_min = $_POST['price_min'];
-        $full_desc = $_POST['full_desc'];
-        $query = "INSERT INTO catalog SET rent_able='$rent_able', name='$name', city='$city', category='$category', fullname='$fullname', date='$date', engine_type='$engine_type', engine_volume='$engine_volume', horse_power='$horse_power', price_max='$price_max', price_mid='$price_mid', price_min='$price_min', full_desc='$full_desc'";
-        mysqli_query($link, $query) or die(mysqli_error($link));
-
-
-    } ?>
-
-    <form action="" method="POST">
+        $max_price = $_POST['max_price'];
+        $middle_price = $_POST['middle_price'];
+        $min_price = $_POST['min_price'];
+        $description = $_POST['description'];
+    $sql = mysqli_query($link, "INSERT INTO catalog SET is_exists='1', name='$name', sity='$sity', type='$type', full_name='$full_name', year='$year', engine_type='$engine_type', volume='$volume', horse_power='$horse_power', max_price='$max_price', middle_price='$middle_price', min_price='$min_price', description='$description'");
+    if ($sql) {
+      echo '<p>Данные успешно добавлены в таблицу.</p>';
+    } else {
+      echo '<p>Произошла ошибка: ' . mysqli_error($link) . '</p>';
+    }
+  }
+?>
+  <form action="" method="POST">
+    <tr>
         <td><input type="hidden" name="id"></td>
-        <td><input type="number" name="rent_able"></td>
+        <td><input type="hidden" name="is_exists"></td>
         <td><input type="text" name="name"></td>
-        <td><input type="text" name="city"></td>
-        <td><input type="text" name="category"></td>
-        <td><input type="text" name="fullname"></td>
-        <td><input type="number" name="date"></td>
+        <td><input type="text" name="sity"></td>
+        <td><input type="text" name="type"></td>
+        <td><input type="text" name="full_name"></td>
+        <td><input type="number" name="year"></td>
         <td><input type="text" name="engine_type"></td>
-        <td><input type="number" name="engine_volume"></td>
+        <td><input type="number" name="volume"></td>
         <td><input type="number" name="horse_power"></td>
-        <td><input type="number" name="price_max"></td>
-        <td><input type="number" name="price_mid"></td>
-        <td><input type="number" name="price_min"></td>
-        <td><input type="text" name="full_desc"></td>
+        <td><input type="number" name="max_price"></td>
+        <td><input type="number" name="middle_price"></td>
+        <td><input type="number" name="min_price"></td>
+        <td><input type="text" name="description"></td>
         <td><input type="submit" value="Добавить"></td>
-    </form>
-</table>
+        </tr>
+    </table>    
+   </form>
 
-<?php
+<?php   
+
+
 if (isset($_GET['del'])) {
     $del = $_GET['del'];
 
@@ -129,7 +118,8 @@ if (isset($_GET['del'])) {
 
     $query = "DELETE FROM catalog where id = '$del'";
     mysqli_query($link, $query) or die(mysqli_error($link));
-}
+} 
+require_once 'controllers/create_folders.php';
 ?>
 
 <!-- <input name="upload[]" type="file" multiple="multiple"><br> -->
