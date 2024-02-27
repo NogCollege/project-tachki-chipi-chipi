@@ -103,13 +103,14 @@ body {
   font-weight: 500;
   line-height: 22px; /* 146.667% */
 }
-.nav p {
+.nav a {
   color: var(--white, #FFF);
   font-family: "PPPangramSans-Medium";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: 22px; /* 146.667% */
+  text-decoration: none;
 }
 
 .numb {
@@ -2227,6 +2228,7 @@ footer .div_footer2 .policy p a {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+  text-decoration: none;
 }
 
 .main_jpg {
@@ -2239,6 +2241,16 @@ footer .div_footer2 .policy p a {
   margin: auto;
   width: 80%;
   height: 50%;
+}
+.FullPage h1 {
+  text-align: center;
+  font-family: Unbounded;
+  font-size: 89px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95px; /* 106.742% */
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .FullPage .slide_cont {
   display: flex;
@@ -2257,15 +2269,15 @@ footer .div_footer2 .policy p a {
   background-color: transparent;
   border: none;
   font-size: 24px;
-  color: white;
+  color: black;
 }
 .FullPage .slide_cont .prev-butt {
   margin-top: 207px;
-  left: 675px;
+  left: 27%;
 }
 .FullPage .slide_cont .next-butt {
   margin-top: 207px;
-  right: 675px;
+  left: 69%;
 }
 .FullPage .slide_cont .slider {
   display: flex;
@@ -2277,4 +2289,66 @@ footer .div_footer2 .policy p a {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 5%;
+}
+
+.descript {
+  margin: 60px auto;
+  width: 530px;
+  font-family: "PPPangramSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.back_b {
+  display: flex;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid var(--black, #1F1F1F);
+  position: absolute;
+  left: 21%;
+  margin-top: 5%;
+}
+.back_b a {
+  text-decoration: none;
+  color: var(--black, #1F1F1F);
+  font-family: "PPPangramSans-Medium";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.a_table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+.a_table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.a_table td {
+  border: 1px solid #dddddd;
+  height: 50px;
+  text-align: center;
+}
+.a_table td input {
+  width: 80px;
+}
+.a_table .big_boy {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+}
+
+.adm_img {
+  width: 150px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,5 @@
 <?php
 require_once "controllers\head.php";
-require_once "templates\space.php";
-
 $host = 'localhost'; 
 $user = 'root'; 
 $password = '';
@@ -25,15 +23,15 @@ $dir = 'templates/img/photos/' .' '. $data['id'] . '-' . $data['name'] . '';
 
 $files = scandir($dir); 
 ?>
-<button class="back_b" type="button" ><a href="http://project-tachki-chipi-chipi/">Назад</a></button>
+<button class="back_b" type="button" ><a href="http://project-tachki-chipi-chipi/admin.php">Назад</a></button>
 <div class="FullPage">
 
     <h1>
         <? echo $data['full_name'] ?>
     </h1>
-    <div class="slide_cont">
+    <!-- <div class="slide_cont">
         <button type="button" class="prev-butt">←</button>
-        <div class='slider'>
+        <div class='slider'> -->
 
             <?php
             foreach ($files as $file) {
@@ -47,17 +45,19 @@ $files = scandir($dir);
                         ['jpg', 'jpeg', 'png', 'gif']
                     )
                 ) {
-                    echo '<img src="' . $file_path . '" class="FullImg">';
+                    echo '<img src="' . $file_path . '" class="adm_img">';
                 }
             }
             ?>
 
         </div>
-        <button type="button" class="next-butt">→</button>
+        <!-- <button type="button" class="next-butt">→</button> -->
     </div>
-
-    <p class="descript">
-        <? echo $data['description'] ?>
-    </p>
 </div>
-<script src="slider.js"></script>
+<?php
+
+$home = $_SERVER['DOCUMENT_ROOT']."/";
+
+$unlink = @unlink($home.'путь_до_папки/файл.html');
+
+if($unlink == true){ echo "получилось удалить";} else{ echo "не получилось удалить";}
