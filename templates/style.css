@@ -2126,14 +2126,44 @@ footer .div_footer2 .policy p a {
     padding: 0;
   }
   footer .div_footer2 .div_footer_nav_2 {
-    width: 80%;
+    width: 100%;
   }
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns {
+<<<<<<< Updated upstream
     width: 90%;
     margin: 0 auto;
     height: auto;
     display: block;
   }
+=======
+    width: auto;
+    height: auto;
+    display: block;
+  }
+  footer .div_footer2 .div_footer_nav_2 .footer_nav_columns div {
+    background: rgb(20, 20, 20);
+    height: 70px;
+    left: 0%;
+    right: 0%;
+  }
+  footer .div_footer2 .div_footer_nav_2 .footer_nav_columns h3 {
+    margin-left: 20px;
+  }
+  footer .div_footer2 .footer_line {
+    display: none;
+  }
+  footer .div_footer2 .policy {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  footer .div_footer2 .policy p {
+    margin-top: 12px;
+    margin-bottom: 34px;
+  }
+>>>>>>> Stashed changes
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns p {
     display: flex;
     justify-content: center;
