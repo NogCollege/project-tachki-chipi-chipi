@@ -1545,6 +1545,9 @@ footer .div_footer2 .div_footer_nav_2 .footer_nav_columns p a {
   text-decoration: none;
   color: #AFAFAF;
 }
+footer .div_footer2 .div_footer_nav_2 .footer_nav_columns p a:hover {
+  color: white;
+}
 footer .div_footer2 .footer_line {
   margin-top: 46px;
   margin-bottom: 46px;
@@ -1590,12 +1593,6 @@ footer .div_footer2 .policy p a {
   .main_jpg {
     width: 200px;
     height: 100px;
-  }
-  footer .div_footer2 .div_footer_nav_2 .footer_nav_columns div {
-    background: rgb(20, 20, 20);
-    height: 70px;
-    left: 0%;
-    right: 0%;
   }
   .line2 {
     width: 80%;
@@ -2012,7 +2009,6 @@ footer .div_footer2 .policy p a {
     font-size: 25px;
     width: inherit;
     line-height: normal;
-    margin: 5%;
     color: var(--white, #FFF);
     font-family: Unbounded;
     font-style: normal;
@@ -2139,6 +2135,12 @@ footer .div_footer2 .policy p a {
     height: auto;
     display: block;
   }
+  footer .div_footer2 .div_footer_nav_2 .footer_nav_columns div {
+    background: rgb(20, 20, 20);
+    height: 70px;
+    left: 0%;
+    right: 0%;
+  }
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns h3 {
     margin-left: 20px;
   }
@@ -2157,7 +2159,7 @@ footer .div_footer2 .policy p a {
     margin-bottom: 34px;
   }
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns p {
-    display: flex;
+    display: none;
     justify-content: center;
   }
   footer .div_footer1 .nav_icons {
