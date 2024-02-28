@@ -1591,6 +1591,12 @@ footer .div_footer2 .policy p a {
     width: 200px;
     height: 100px;
   }
+  footer .div_footer2 .div_footer_nav_2 .footer_nav_columns div {
+    background: rgb(20, 20, 20);
+    height: 70px;
+    left: 0%;
+    right: 0%;
+  }
   .line2 {
     width: 80%;
   }
@@ -2129,22 +2135,9 @@ footer .div_footer2 .policy p a {
     width: 100%;
   }
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns {
-<<<<<<< Updated upstream
-    width: 90%;
-    margin: 0 auto;
-    height: auto;
-    display: block;
-  }
-=======
     width: auto;
     height: auto;
     display: block;
-  }
-  footer .div_footer2 .div_footer_nav_2 .footer_nav_columns div {
-    background: rgb(20, 20, 20);
-    height: 70px;
-    left: 0%;
-    right: 0%;
   }
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns h3 {
     margin-left: 20px;
@@ -2163,7 +2156,6 @@ footer .div_footer2 .policy p a {
     margin-top: 12px;
     margin-bottom: 34px;
   }
->>>>>>> Stashed changes
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns p {
     display: flex;
     justify-content: center;
