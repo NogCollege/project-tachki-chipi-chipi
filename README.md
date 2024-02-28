@@ -2,7 +2,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13485338&assignment_repo_type=AssignmentRepo)
 # Project-Tachki-3ispr1
 Фамилия имя студентов, выполняющих задание: **Булаткин Даниил**, **Рябчевский раб**
-
+                                                                                http://tamaziq2.beget.tech/
 Стартовый репозиторий для проекта "АрендаТачек.рф". Выполняется на HTML, SASS, PHP и JavaScript.
 Проект выполняется в группе из двух (максимум - трёх, при нехватке рабочих мест) человек.
 Итоговый проект включает в себя: лендинг страницу, базу данных, генерируемые PHP-страницы, почтовый клиент. Регистрация и авторизация НЕ предусмотрены.
