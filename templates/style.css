@@ -2131,12 +2131,17 @@ footer .div_footer2 .policy p a {
     width: 100%;
   }
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns {
+
     width: auto;
     height: auto;
     display: block;
   }
   footer .div_footer2 .div_footer_nav_2 .footer_nav_columns div {
     background: rgb(20, 20, 20);
+
+
+    width: auto;
+
     height: 70px;
     left: 0%;
     right: 0%;
