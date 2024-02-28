@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'PPPangramSans-Medium';
+	src: url('../fonts/pppangramsans-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/pppangramsans-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/pppangramsans-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/pppangramsans-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/pppangramsans-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/pppangramsans-medium.svg#pppangramsans-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
