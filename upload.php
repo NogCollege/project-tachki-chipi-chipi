@@ -29,10 +29,6 @@ $files = scandir($dir);
     <h1>
         <? echo $data['full_name'] ?>
     </h1>
-    <!-- <div class="slide_cont">
-        <button type="button" class="prev-butt">←</button>
-        <div class='slider'> -->
-
             <?php
             foreach ($files as $file) {
                 $file_path = $dir . '/' . $file;
@@ -46,18 +42,39 @@ $files = scandir($dir);
                     )
                 ) {
                     echo '<img src="' . $file_path . '" class="adm_img">';
+                    echo'<input type="submit" value="Удалить">';
                 }
             }
             ?>
 
         </div>
-        <!-- <button type="button" class="next-butt">→</button> -->
     </div>
 </div>
+
 <?php
+if (isset($_POST["name"])) {
+    $home = $_SERVER['DOCUMENT_ROOT']."/";
 
-$home = $_SERVER['DOCUMENT_ROOT']."/";
+    $unlink = @unlink($home.'templates\img\photos\main.jpg"');
 
-$unlink = @unlink($home.'путь_до_папки/файл.html');
+    if($unlink == true){ echo "получилось удалить";} else{ echo "не получилось удалить";}
 
-if($unlink == true){ echo "получилось удалить";} else{ echo "не получилось удалить";}
+$uploadDir = './uploadFiles/';
+if ($_FILES) {
+$files = array_filter($_FILES['upload']['name']);
+$total = count($_FILES['upload']['name']);
+for ($i = 0; $i < $total; $i++) {
+$tmpFilePath = $_FILES['upload']['tmp_name'][$i];
+if ($tmpFilePath != "") {
+$newFilePath = $uploadDir . $_FILES['upload']['name'][$i];
+if(!file_exists($newFilePath)) {
+move_uploaded_file($tmpFilePath, $newFilePath);
+echo $_FILES['upload']['name'][$i] .' успешно загружен в папку ' . 
+$uploadDir .'<br>';
+} else {
+echo 'Файл '. $_FILES['upload']['name'][$i] .' уже существует!';
+}
+} 
+}
+}
+}
