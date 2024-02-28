@@ -1,6 +1,6 @@
 <?php
-require_once 'controllers/connect.php';
-require_once 'controllers/head.php';
+require_once 'connect.php';
+require_once 'head.php';
 ?>
 <table class="a_table">
     <tr class="info">
@@ -119,7 +119,7 @@ if (isset($_GET['del'])) {
     $query = "DELETE FROM catalog where id = '$del'";
     mysqli_query($link, $query) or die(mysqli_error($link));
 } 
-require_once 'controllers/create_folders.php';
+require_once 'create_folders.php';
 ?>
 
 <!-- <input name="upload[]" type="file" multiple="multiple"><br> -->

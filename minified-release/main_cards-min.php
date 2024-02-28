@@ -92,7 +92,7 @@
 
 <div class="glavniy">
         <?php 
-        require_once 'controllers\connect.php';
+        require_once 'connect.php';
             foreach ($data as $elem) {
               $result .= '<div class="card '.$elem['type'].'">';
               $result .= '    <p class="city">'. $elem['sity'].'</p>';

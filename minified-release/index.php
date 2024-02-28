@@ -1,7 +1,8 @@
 <?php
-require_once "controllers\head.php";
-require_once "templates\header.php";
-require_once "templates\main_cards.php";
-require_once "templates\under_main.php";
-require_once "templates\do_futera.php";
-require_once "templates\hooter.php";
+require_once "head.php";
+require_once "header-min.php";
+require_once "main_cards-min.php";
+require_once "under_main-min.php";
+require_once "do_futera-min.php";
+require_once "hooter-min.php";
+?>
